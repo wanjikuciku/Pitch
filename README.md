@@ -18,10 +18,17 @@ To start using this project use the following commands:
 * chmod a+x start.sh
 * ./start.sh
 access the application on this localhost address http://127.0.0.1:5000
+
 ## Prerequisites
 You need the following to work on the project: -Python version 3.6 -Flask -Pip -virtualenv -A text Editor
 
+## Behavior Driven Development
+| Input | Behaviour| Output |
+| Data from index page | landing page loads	|Displays available categories of pitches |
+| Click on any category	| New page loads | All pitches from the category gets displayed |
+
 ## Link to Live Website
+
 ## Technologies Used
 * Python
 * Flask micro-framework
