@@ -1,15 +1,15 @@
-import os
+# import os
 
 
 class Config:
 
-    SECRET_KEY = os.environ.get('SECRET_KEY')
+    # SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://lorna:milkshake@localhost/pitch'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-
-@staticmethod
-def init_app(app):
-    pass
+# @staticmethod
+# def init_app(app):
+#     pass
 
 
 class ProdConfig(Config):
