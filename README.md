@@ -12,7 +12,7 @@ To start using this project use the following commands:
 * cd Pitch
 * atom .
 * code . (this is if Visual Studio Code is your preferred text editor)
-* To run this program
+To run this program
 
 * run this command lines in your terminal:
 * chmod a+x start.sh
