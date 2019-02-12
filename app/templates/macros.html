@@ -1,0 +1,20 @@
+{% macro displayPitches(pitches_list)%}
+    {%for pitch in pitches_list%}
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div style="border: 1px solid #372e5f; border-radius: 5px; padding: 10px; font-size:16px; margin: 10px;">
+                <h4>{{pitch.pitch_title}}</h4>
+                <p>{{pitch.pitch_content| truncate(100)}}</p>
+                <p>Written by:  {{pitch.user.username}} <br> <a href="/pitch/{{pitch.id}}" class="btn btn-primary" style="margin-top: 10px; background-color: #372e5f; color: #fff;">View Pitch</a> </p>
+            </div>
+        </div>
+    {%endfor%}
+{%endmacro%}
+
+{%macro displayComments(comments_list)%}
+    {%for comment in comments_list%}
+        <div class="col-md-6">
+            <h5>{{comment.user.username}}</h5>
+            <p>{{comment.comment}}</p>
+        </div>
+    {%endfor%}
+{%endmacro%}
