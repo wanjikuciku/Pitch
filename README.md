@@ -12,12 +12,15 @@ To start using this project use the following commands:
 * cd Pitch
 * atom .
 * code . (this is if Visual Studio Code is your preferred text editor)
-To run this program
 
-* run this command lines in your terminal:
-* chmod a+x start.sh
-* ./start.sh
-access the application on this localhost address http://127.0.0.1:5000
+ To run this program
+* Create a virtual environment by python3.6 -m venv --without-pip virtual then activate the virtual environment
+* Read the specs and requirements files and install all requirements by pip install -r requirements.txt
+* create a start.sh file and hide it in gitignore
+* Edit the start.sh file with your email account and password and add python3.6 manage.py server so as to serve
+* enter the code chmod a+x start.sh then ./start.sh to serve
+
+* access the application on this localhost address http://127.0.0.1:5000
 
 ## Prerequisites
 You need the following to work on the project: -Python version 3.6 -Flask -Pip -virtualenv -A text Editor
