@@ -3,7 +3,7 @@ import os
 
 class Config:
 
-    SECRET_KEY = '123456'
+    SECRET_KEY = os.environ.get ('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://lorna:milkshake@localhost/pitch'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
