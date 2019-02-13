@@ -25,7 +25,7 @@ To start using this project use the following commands:
 ## Prerequisites
 You need the following to work on the project: -Python version 3.6 -Flask -Pip -virtualenv -A text Editor
 
-## Link to Live Website
+## Link to Live Website https://lony-pitches.herokuapp.com
 
 ## Technologies Used
 * Python
